@@ -1,0 +1,13 @@
+@mixin fwElemsPadding {
+  padding: 0 var(--fw-elems-margin-padding);
+}
+
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
