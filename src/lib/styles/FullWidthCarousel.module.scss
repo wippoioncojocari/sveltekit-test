@@ -1,0 +1,8 @@
+@import "mixins";
+@import "costants";
+
+.main {
+  border: 1px solid #f00;
+  margin: 0 var(--fw-elems-margin-padding) 0;
+
+}

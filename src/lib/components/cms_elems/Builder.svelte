@@ -1,6 +1,7 @@
 <script lang="ts">
     import cms from "../../utils/cms";
-    import BlockSeo from "$lib/components/cms_elems/BlockSeo.svelte";
+    import BlockSeo from "$lib/components/cms_elems/block_seo/BlockSeo.svelte";
+    import FullWidthCarousel from "$lib/components/cms_elems/full_width_carousel/FullWidthCarousel.svelte";
 
     // PROPS START
     export let json: any;
@@ -10,6 +11,8 @@
         switch (item.type) {
             case cms.BLOCK_SEO:
                 return BlockSeo;
+            case cms.BLOCK_FULL_WIDTH_CAROUSEL:
+                return FullWidthCarousel;
             default:
                 return null;
         }

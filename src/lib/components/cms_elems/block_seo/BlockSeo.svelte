@@ -1,7 +1,7 @@
-<!--BlockSeo-->
+<!--block_seo-->
 
 <script lang="ts">
-    import cms from "../../utils/cms"
+    import cms from "../../../utils/cms"
     export let json
 
     const data = cms.getAllFields(json)
